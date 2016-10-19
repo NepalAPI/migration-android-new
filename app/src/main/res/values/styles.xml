@@ -1,59 +1,69 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowBackground">@color/window_background</item>
-        <item name="android:dialogTheme">@style/AppTheme.Dialog</item>
-    </style>
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:windowBackground">@color/window_background</item>
+		<item name="android:dialogTheme">@style/AppTheme.Dialog</item>
+	</style>
 
-    <style name="AppTheme.NoActionBar" parent="AppTheme">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
+	<style name="AppTheme.NoActionBar" parent="AppTheme">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
 
-    <style name="SearchTheme" parent="ThemeOverlay.AppCompat.Dark">
-    </style>
+	<style name="AppTheme.NavigationView">
+		<item name="android:textColorSecondary">@color/nav_text_highlight</item>
+	</style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+	<style name="SearchTheme" parent="ThemeOverlay.AppCompat.Dark">
+	</style>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowIsFloating">true</item>
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
-        <item name="colorAccent">@color/colorPrimary</item>
-    </style>
+	<style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowIsFloating">true</item>
 
-    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
-        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
-        <item name="tabSelectedTextColor">@android:color/white</item>
-        <item name="tabTextColor">@color/white_alpha_70</item>
-        <item name="tabIndicatorHeight">0dp</item>
-    </style>
+		<item name="colorAccent">@color/colorPrimary</item>
+	</style>
 
-    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">@dimen/text_small</item>
-        <item name="textAllCaps">false</item>
-        <!--<item name="android:textStyle">bold</item>-->
-    </style>
+	<style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+		<item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+		<item name="tabSelectedTextColor">@android:color/white</item>
+		<item name="tabTextColor">@color/white_alpha_70</item>
+		<item name="tabIndicatorHeight">0dp</item>
+	</style>
 
-    <style name="AppTheme.NoActionBar.AppBarOverlay"
-           parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+	<style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+		<item name="android:textSize">@dimen/text_small</item>
+		<item name="textAllCaps">false</item>
+		<!--<item name="android:textStyle">bold</item>-->
+	</style>
 
-    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
+	<style name="AppTheme.NoActionBar.AppBarOverlay"
+	       parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    <style name="ExpandedToolbarTextAppearance" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">0dp</item>
-    </style>
+	<style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
 
-    <style name="CollapsedToolbarTextAppearance" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">@dimen/text_xlarge</item>
-    </style>
+	<style name="ExpandedToolbarTextAppearance" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:textSize">0dp</item>
+	</style>
+
+	<style name="CollapsedToolbarTextAppearance" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textSize">@dimen/text_xlarge</item>
+	</style>
+	
+	<style name="AppTheme.AppThemeOnBoardActivity" parent="AppTheme.NoActionBar">
+		<item name="colorAccent">@color/teal</item>
+		<item name="colorControlNormal">@color/teal</item>
+
+	</style>
 </resources>
